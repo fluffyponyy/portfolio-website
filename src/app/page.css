@@ -1,0 +1,11 @@
+.center {
+}
+
+.name {
+  font-size: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
