@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Nordle",
+        "short_description": "words",
+        "long_description": "",
+        "tags": [
+            "gamejam",
+            "game",
+            "python"
+        ],
+        "date": "Summer 2025",
+        "images": [
+            "rowan_grump.png",
+            "rowan_hot.png"
+        ],
+        "thumbnail": 0
+    },
+    {
+        "title": "Wikimancy-Bot",
+        "short_description": "wikipedia ig",
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "tags": [
+            "mini",
+            "python",
+            "console"
+        ],
+        "date": "October 2025",
+        "images": [
+            "rowan_grump.png",
+            "rowan_hot.png"
+        ],
+        "thumbnail": 1
+    },
+    {
+        "title": "SSI",
+        "short_description": "school shit",
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "tags": [
+            "school",
+            "c",
+            "console"
+        ],
+        "date": "Summer 2025",
+        "images": [
+            "rowan_grump.png"
+        ],
+        "thumbnail": 0
+    },
+    {
+        "title": "Personal blog",
+        "short_description": "emotional n shit",
+        "long_description": "",
+        "tags": [
+            "web",
+            "python"
+        ],
+        "date": "Spring 2025",
+        "images": [
+            "rowan_grump.png",
+            "rowan_hot.png"
+        ],
+        "thumbnail": 1
+    }
+]

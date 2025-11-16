@@ -1,28 +1,67 @@
+/* project_card.css */
+
 .card {
-  background-color: #2b2b2b; /* slightly lighter than background */
-  color: #fff;
-  padding: 16px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  background-color: #ffe4e6; /* light pink */
+  border: 1px solid #fcd5d9; /* pink border */
+  border-radius: 1rem; /* slightly rounded */
+  padding: 2rem; /* smaller padding */
+  width: 22rem; /* smaller width for 3-per-row layout */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* slightly smaller shadow */
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
-}
-
-.card:hover {
-  transform: scale(1.05);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* slightly smaller spacing */
+  box-sizing: border-box;
 }
 
 .card-title {
+  font-size: 1.35rem; /* slightly smaller */
   font-weight: bold;
-  font-size: 1.2rem;
-  margin-bottom: 8px;
+  color: #000000;
+  margin: 0;
 }
 
 .card-description {
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0.25rem 0;
+}
+
+.card-long-description {
   font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.card-date {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+.card-images {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-images img {
+  width: 8rem; /* smaller images */
+  height: 5rem;
+  object-fit: cover;
+  background-color: #7c3aed;
+  border-radius: 0.5rem;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-tags span {
+  background-color: #fbcfe8; /* pink-200 */
+  color: #4b5563; /* gray-700 */
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px; /* rounded-full */
+  font-size: 0.875rem; /* smaller text */
 }

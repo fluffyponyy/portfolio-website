@@ -1,0 +1,46 @@
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem; /* increased spacing */
+  margin-bottom: 2rem;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 3rem; /* ensure spacing between buttons */
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #000 !important;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    #f472b6,
+    #7c3aed
+  ); /* pink → purple gradient */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #000; /* keep black on hover */
+}
