@@ -13,7 +13,7 @@
 
 .project-modal-content {
   background-color: #fff;
-  padding: 2rem;
+  padding: 0rem 2rem 2rem 2rem;
   border-radius: 1rem;
   max-width: 800px;
   max-height: 90vh;
@@ -40,6 +40,14 @@
   border-radius: 0.5rem;
 }
 
+hr {
+  border: 1px dashed darkslategray; /* A dashed blue line */
+}
+
+.modal-tags {
+  padding-top: 1rem;
+}
+
 .modal-tags span {
   background-color: #fbcfe8;
   color: #4b5563;
@@ -50,9 +58,6 @@
 }
 
 .modal-close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
   background: none;
   border: none;
   font-size: 2rem;
@@ -60,8 +65,17 @@
   cursor: pointer;
   color: #333;
   transition: color 0.2s;
+  right: 0;
+  position: relative;
+  margin-bottom: -20%;
 }
 
 .modal-close:hover {
   color: #7c3aed;
+}
+
+.project-modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }

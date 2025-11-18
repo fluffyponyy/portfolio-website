@@ -1,11 +1,12 @@
-.center {
-}
-
 .name {
   font-size: 65px;
+  margin-bottom: 0;
 }
 
 .container {
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  height: 100%;
 }

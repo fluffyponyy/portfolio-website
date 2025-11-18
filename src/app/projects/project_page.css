@@ -4,6 +4,7 @@
   padding: 3rem;
   color: #111;
   box-sizing: border-box;
+  height: 100%;
 }
 
 .projects-header {
@@ -16,6 +17,7 @@
   font-size: 2rem;
   font-weight: bold;
   text-transform: lowercase;
+  margin-top: 0;
 }
 
 .nav-links a {
@@ -36,6 +38,7 @@
   flex-wrap: wrap;
   gap: 2rem; /* both horizontal and vertical spacing */
   justify-content: flex-start;
+  padding: 1%;
 }
 
 /* 3 per row with proper horizontal spacing */
@@ -72,6 +75,26 @@
 
 .modal-close:hover {
   color: #7c3aed;
+}
+
+.modal-tags {
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: row;
+}
+
+.modal-tags span {
+  background-color: #fbcfe8;
+  color: #4b5563;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.grey-tag {
+  background-color: rgb(126, 126, 126);
+  color: #101112;
 }
 
 /* Responsive tweaks */

@@ -43,4 +43,5 @@
 
 .nav-link:hover {
   color: #000; /* keep black on hover */
+  font-style: italic;
 }

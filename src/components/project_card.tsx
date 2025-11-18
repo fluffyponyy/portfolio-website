@@ -2,6 +2,7 @@
 
 import React from "react";
 import './project_card.css';
+import Image from "@/components/image";
 
 interface ProjectCardProps {
     title: string;
@@ -42,10 +43,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {images.length > 0 && (
                 <div className="card-images">
                     {images.slice(0, 2).map((url, i) => (
-                        <img
+                        <Image
                             key={i}
-                            src={`/assets/images/${url}`} // prepend public folder path
-                            style={{ width: '100px', height: '60px', objectFit: 'cover' }}
+                            url={url}
+                            height={100}
+                            width={200}
                         />
                     ))}
                 </div>

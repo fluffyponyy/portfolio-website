@@ -1,5 +1,6 @@
 'use client';
 import './project_modal.css';
+import Image from "@/components/image";
 
 type Project = {
     title: string;
@@ -16,22 +17,25 @@ type ProjectModalProps = {
 export default function ProjectModal({ project, onClose }: ProjectModalProps) {
     return (
         <div className="project-modal" onClick={onClose}>
-            <div className="project-modal-content" onClick={(e) => e.stopPropagation()}>
-                <button className="modal-close" onClick={onClose}>×</button>
 
+            <div className="project-modal-content" onClick={(e) => e.stopPropagation()}>
+
+                <button className="modal-close" onClick={onClose}>←</button>
                 <h2>{project.title}</h2>
+
                 <p>{project.long_description}</p>
 
                 <div className="modal-images">
                     {project.images.map((img, i) => (
-                        <img
+                        <Image
                             key={i}
-                            src={`/assets/images/${img}`} // prepend public folder path
-                            style={{ width: '100px', height: '60px', objectFit: 'cover' }}
+                            url={img}
+                            height={200}
+                            width={350}
                         />
                     ))}
                 </div>
-
+                <hr></hr>
                 <div className="modal-tags">
                     {project.tags.map((tag, i) => (
                         <span key={i}>{tag}</span>
