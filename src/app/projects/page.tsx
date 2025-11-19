@@ -41,6 +41,8 @@ export default function ProjectsPage() {
 
     }
 
+    tag_list.sort()
+
     return (
         <div className="projects-container">
             <div className="projects-header">
@@ -50,12 +52,12 @@ export default function ProjectsPage() {
                 </div>
             </div>
 
-            <p style={{ fontStyle: 'italic', marginBottom: '2rem', marginTop: 0, color: '#333' }}>filter by tag:</p>
+            <p className="filter-txt">filter by tag:</p>
 
-            <div className="modal-tags">
+            <div className="filter-modal-tags">
                 {tag_list.map((tag: string, i: number) => (
                     <div key={i} onClick={() => { if (filter.includes(tag)) { addTagToFilter(filter.filter(item => item !== tag)) } else { addTagToFilter(filter => [...filter, tag]) } }}>
-                        <span key={i}>{tag}</span>
+                        <span key={i} className={filter.includes(tag) ? 'selected-tag' : 'unselected-tag'}>{tag}</span>
                     </div>
                 ))}
             </div>

@@ -77,24 +77,35 @@
   color: #7c3aed;
 }
 
-.modal-tags {
-  padding-top: 1rem;
-  display: flex;
+.filter-modal-tags {
+  padding: 1rem;
+  display: inline-flex;
   flex-flow: row;
+  width: 10%;
 }
 
-.modal-tags span {
+.filter-modal-tags span {
   background-color: #fbcfe8;
   color: #4b5563;
   padding: 0.5rem 1rem;
   border-radius: 9999px;
   font-size: 1rem;
   margin-right: 0.5rem;
+  cursor: pointer;
+  user-select: none;
 }
 
-.grey-tag {
-  background-color: rgb(126, 126, 126);
-  color: #101112;
+.selected-tag {
+  background-color: #ff3b96 !important;
+  color: #eff1f2 !important;
+}
+
+.filter-txt {
+  font-style: italic;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: #333;
+  display: inline;
 }
 
 /* Responsive tweaks */
