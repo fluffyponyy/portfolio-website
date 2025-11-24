@@ -1,5 +1,5 @@
 'use client';
-import './nav.css';
+import './links.css';
 import Image from "@/components/image";
 
 export default function Links() {
@@ -10,18 +10,18 @@ export default function Links() {
                 <a className="sm-link" href="https://www.linkedin.com/in/ana-constantinescu-ab3046198/">
                     <Image key={1}
                         url={"linkedin.png"}
-                        height={48}
-                        width={48}></Image></a>
+                        height={44}
+                        width={44}></Image></a>
                 <a className="sm-link" href="https://github.com/fluffyponyy">
                     <Image key={2}
                         url={"github.png"}
-                        height={48}
-                        width={48}></Image>
+                        height={45}
+                        width={45}></Image>
                 </a>
-                <a className="sm-link" href="">
+                <a className="sm-link" href="mailto:anaconst140@gmail.com">
                     <Image key={3}
                         url={"email.png"}
-                        height={48}
+                        height={36}
                         width={48}></Image></a>
             </div >
         </nav >

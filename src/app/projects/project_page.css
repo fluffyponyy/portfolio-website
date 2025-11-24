@@ -93,6 +93,7 @@
   margin-right: 0.5rem;
   cursor: pointer;
   user-select: none;
+  transition: background-color 0.2s ease-in; /* Add a smooth transition */
 }
 
 .selected-tag {

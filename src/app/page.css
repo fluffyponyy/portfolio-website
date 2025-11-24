@@ -10,3 +10,26 @@
   justify-content: center;
   height: 100%;
 }
+
+.star {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 50vw;
+  top: 19vh;
+  animation: x 4s linear forwards,
+    y 4s cubic-bezier(0.55, 0, 0.2, -5000) forwards;
+}
+
+@keyframes x {
+  to {
+    left: 50vw;
+  }
+}
+
+@keyframes y {
+  to {
+    top: 19vh;
+  }
+}

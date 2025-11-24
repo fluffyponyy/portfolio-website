@@ -38,7 +38,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                 <hr></hr>
                 <div className="modal-tags">
                     {project.tags.map((tag, i) => (
-                        <span key={i}>{tag}</span>
+                        <span>{tag}</span>
                     ))}
                 </div>
             </div>
