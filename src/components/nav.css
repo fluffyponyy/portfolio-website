@@ -2,7 +2,6 @@
   display: flex;
   justify-content: flex-end;
   gap: 3rem; /* increased spacing */
-  margin-bottom: 2rem;
 }
 
 .nav-buttons {
