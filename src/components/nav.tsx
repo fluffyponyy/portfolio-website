@@ -14,6 +14,7 @@ export default function Nav() {
                     <a className="nav-link" onClick={() => router.push('/')}>home</a>
                 )}
                 <a className="nav-link" onClick={() => router.push('/projects')}>projects</a>
+                <a className="nav-link" onClick={() => router.push('/resume')}>resume</a>
                 <a className="nav-link" onClick={() => router.push('/about')}>about</a>
             </div>
         </nav>
