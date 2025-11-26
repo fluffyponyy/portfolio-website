@@ -4,6 +4,8 @@ import ProjectCard from "@/components/project_card";
 import './project_page.css';
 import ProjectModal from "@/components/project_modal";
 import Nav from "@/components/nav";
+import StarField from "@/components/star_field_wrapper";
+
 
 type Project = {
     title: string;
@@ -17,6 +19,10 @@ type Project = {
 
 
 export default function ProjectsPage() {
+    useEffect(() => {
+        document.title = "Projects | Ana Constantinescu";
+    }, []);
+
     const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
     const [projects, setProjects] = useState<Project[]>([]);
@@ -44,8 +50,10 @@ export default function ProjectsPage() {
     tag_list.sort()
 
     return (
-        <div className="projects-container">
-            <div className="projects-header">
+
+        <div className="primary-container">
+            <StarField count={80} />
+            <div className="primary-header">
                 <h1>projects</h1>
                 <div className="nav-links">
                     <Nav />
