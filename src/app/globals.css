@@ -7,13 +7,52 @@
 
 html,
 body {
-  height: 100%;
   margin: 0;
+  min-height: 100vh;
   background: radial-gradient(circle at center, #745bff, #f95bf6, #ff7a41);
   color: black;
   background-attachment: fixed;
   font-family: "OldStyle", system-ui, sans-serif;
   animation: shift 10s ease infinite;
+}
+
+.primary-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem;
+  color: #111;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.primary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.primary-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin-top: 0;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #7c3aed;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #4c1d95;
+}
+
+.page-body {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
 }
 
 @keyframes shift {
