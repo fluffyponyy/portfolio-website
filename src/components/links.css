@@ -16,3 +16,7 @@
 .sm-link:hover {
   transform: scale(1.2); /* Increase size by 20% on hover */
 }
+
+.link-container {
+  margin: 1em;
+}
