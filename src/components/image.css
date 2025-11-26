@@ -1,4 +1,9 @@
 img {
   object-fit: "cover";
   margin: 2%;
+  z-index: 1;
+}
+
+.circle {
+  border-radius: 50%;
 }
