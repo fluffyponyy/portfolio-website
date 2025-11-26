@@ -1,0 +1,30 @@
+.starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  width: 2px; /* or slightly bigger 2-5px */
+  height: 2px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 6px white; /* glow so visible over gradients */
+  animation: twinkle ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    transform: scale(0.8);
+    opacity: 0.2;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.9;
+  }
+}
