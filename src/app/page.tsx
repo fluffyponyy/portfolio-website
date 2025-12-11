@@ -15,7 +15,7 @@ export default function Home() {
         <>
             <StarField count={80} />
             <div className="container   main">
-                <div className="shooting-star">⭐</div>
+                <div className="shooting-star">★</div>
                 <h1 className="name">Ana Constantinescu</h1>
                 <h2>Computer Science student at UVic</h2>
                 < Nav />

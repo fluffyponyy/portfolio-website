@@ -30,8 +30,8 @@
   height: 2px;
   background: linear-gradient(
     90deg,
-    #f472b6,
-    #7c3aed
+    #00ffbf,
+    #0013bd
   ); /* pink → purple gradient */
   transition: width 0.3s ease;
 }

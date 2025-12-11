@@ -12,7 +12,7 @@
 }
 
 .project-modal-content {
-  background-color: #fff;
+  background-color: #eefeff;
   padding: 0rem 2rem 2rem 2rem;
   border-radius: 1rem;
   max-width: 800px;
@@ -49,7 +49,7 @@ hr {
 }
 
 .modal-tags span {
-  background-color: #fbcfe8;
+  background-color: #f8d1f9;
   color: #4b5563;
   padding: 0.5rem 1rem;
   border-radius: 9999px;

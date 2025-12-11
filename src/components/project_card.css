@@ -1,8 +1,8 @@
 /* project_card.css */
 
 .card {
-  background-color: #ffe4e6; /* light pink */
-  border: 1px solid #fcd5d9; /* pink border */
+  background-color: #eefeff; /* light pink */
+  border: 1px solid #b8f0f4; /* pink border */
   border-radius: 1rem; /* slightly rounded */
   padding: 2rem; /* smaller padding */
   width: 22rem; /* smaller width for 3-per-row layout */
@@ -59,7 +59,7 @@
 }
 
 .card-tags span {
-  background-color: #fbcfe8; /* pink-200 */
+  background-color: #f8d1f9;
   color: #4b5563; /* gray-700 */
   padding: 0.25rem 0.75rem;
   border-radius: 9999px; /* rounded-full */

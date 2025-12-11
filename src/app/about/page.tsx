@@ -34,6 +34,8 @@ export default function AboutPage() {
 
                 <h3> I'm a 4th year Computer Science student at the University of Victoria in BC.</h3>
 
+                <p> My interests are <b>word puzzles,</b> <b>experimental projects,</b> and <b>software testing.</b></p>
+
                 <p>Reach out to me on social media:</p>
                 <Links />
             </div>

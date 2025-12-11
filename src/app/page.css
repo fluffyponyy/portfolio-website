@@ -1,6 +1,14 @@
 .name {
   font-size: 65px;
   margin-bottom: 0;
+  color: black;
+}
+
+body .main {
+  background: radial-gradient(circle at center, #ff44fb, #28e5f8, #240ab4);
+  margin: 0;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .container {
@@ -9,7 +17,6 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  margin-top: 5em;
 }
 
 .shooting-star {
